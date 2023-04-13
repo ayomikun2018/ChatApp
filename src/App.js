@@ -26,14 +26,12 @@ function App() {
             index
             element={
               <ProtectedRoute>
-                <Login/>
+                <HomePage />
               </ProtectedRoute>
             }
           />
-          
-          <Route exact path= 'home' element = {<HomePage/>}/>
-
-          {/* <Route exact path= 'login' element = {<Login/>}/> */}
+          {/* <Route index element = {<HomePage/>}/> */}
+          <Route exact path= 'login' element = {<Login/>}/>
           <Route exact path= 'signup' element = {<Signup/>}/>
     
 
