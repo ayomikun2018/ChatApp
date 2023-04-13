@@ -1,0 +1,430 @@
+.signUp {
+    height: 100%;
+    /* border: 1px solid green; */
+}
+.signUp nav{
+    height: 12%;
+    /* border: 1px solid green; */
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    background :#FFF4F4;
+    align-content: center;
+    align-items: center;
+    padding: 20px;
+    box-shadow: 0px 1px 22px rgba(0, 0, 0, 0.11);
+  
+}
+.signUp h1{
+    font-weight: 600;
+    font-size: 28px;
+}
+.icon{
+    height: 60%;
+    width: 5%;
+}
+.signUp-container{
+    align-items: center;
+    justify-content: center;
+    /* height: 100vh; */
+    margin-top: 4%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    
+}
+form{
+   
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* display: inline-block; */
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid red; */
+    width: 25%;
+    gap: 15px;
+}
+.signUp header{
+    font-weight: 600;
+    font-size: 30px;
+}
+.signUp label{
+    font-weight: 400;
+  font-size: 16px;
+}
+.signUp input{
+   height: 50px;
+   /* width: 100%; */
+   border-radius: 10px;
+   padding: 15px;
+   text-align: start;
+    background: #fafafa;;
+}
+.signUp input ::placeholder{
+    color: #BBBBBB;
+}
+.signUp button{
+    gap: 10px;
+    width: 100%;
+    font-weight: 400;
+  
+    height: 50px;
+    background: #f64f59;
+    margin-right: 12rem; 
+    color: #FDDCDE;
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: 500;
+   
+}
+
+.signUp button:hover {
+    background-color: white;
+    color: #f64f59;
+    
+}
+.signUp p{
+    /* display: flex; */
+    font-weight: 400;
+    size: 12px;
+}
+.click{
+    color: #f64f59;
+    text-decoration: none;
+}
+.signUp img{
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+}
+.signUp span {
+    text-align: center;
+    /* color: orange; */
+}
+.file{
+    display: flex;
+    align-items: center;
+    /* gap: 10px; */
+    gap: 15px;
+    color:#f64f59;
+    font-size: 12px;
+    cursor: pointer;
+
+}
+/* ............................................................... */
+.home-nav{
+    height: 12%;
+    /* border: 1px solid green; */
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    background :#FFF4F4;
+    align-content: center;
+    align-items: center;
+    padding: 20px;
+    box-shadow: 0px 1px 22px rgba(0, 0, 0, 0.11);
+}
+
+.home{
+
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: #FFF4F4; */
+
+}
+.container{
+    /* border: 1px solid green; */
+    box-shadow: 0px 1px 22px rgba(0, 0, 0, 0.11);
+    border-radius: 10px;
+    width: 60%;
+    height: 70%;
+    display: flex;
+    overflow: hidden;
+}
+
+.sideBar {
+    flex: 1;
+    width: 100%;
+    background-color:#f64f59;
+    box-shadow: 0px 1px 22px rgba(0, 0, 0, 0.11);
+    position: relative;
+}
+
+.navContainer {
+    display: flex;
+    align-items: center;
+    background-color:white;
+    height: 60px;
+    padding: 10px;
+    justify-content: space-between;
+   
+    border-bottom: 1px solid gray;
+  
+    /* border: 1px solid red; */
+}
+
+.iconH{
+    height: 28px;
+    width: 28px;
+}
+/* .dee{
+    font-size: 20px;
+} */
+.buttonDiv{
+align-content: center;
+display: flex;
+flex-direction: row;
+gap: 10px;
+margin-left: 70px;
+}
+.buttonDiv button {
+    font-size: 10px;
+    cursor: pointer;
+
+}
+.buttonDiv button :hover{
+background-color: red;
+/* color: #f64f59; */
+}
+.buttonB{
+    background-color: #f64f59;
+color: white;
+}
+.user {
+    display: flex;
+    gap: 5px;
+    /* border: 1px solid green; */
+} 
+
+ .navContainer img {
+    background-color: #ddddf7;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+
+.deeDiv{
+    display: flex;
+    gap: 15px;
+    width: 100%;
+    align-items: center;
+    background-color:white;
+    /* height: 60px; */
+    /* padding: 10px; */
+    /* border: 1px solid green; */
+    /* justify-content: space-between; */
+}
+
+.search{
+    border-bottom: 1px solid gray;
+}
+.search input{
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+    border: 0px 1px solid #FFF4F4;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid gray;
+    /* border-bottom: 1px solid; */
+}
+.userChat{
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+    align-items: center;
+    cursor: pointer;
+    /* flex-direction: ; */
+   
+}
+.userChat:hover{
+    background-color: #cc343e;
+        
+}
+
+.userChat img{
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    object-fit: cover;
+}
+.userChatInfo span {
+    font-size: 18px;
+    font-weight: 500;
+}
+.userChatInfo p {
+    font-size: 14px;
+    color: lightgray;
+}
+
+/* ................................................................ */
+.chat{
+    flex: 2;
+}
+.chatInfo{
+    height: 60px;
+    display: flex;
+    align-items: center;
+    background-color:white;
+    padding: 10px;
+   border-bottom: 1px solid gray;
+   border-left: 1px solid gray;
+}
+.messages{
+    background-color:#FDDCDE;
+    padding: 10px;
+    height: calc(100% - 110px);
+    overflow: scroll;
+    
+}
+.message{
+    display: flex;
+    gap:10px;
+    margin-bottom: 20px;
+}
+.message img{
+    width: 50%;
+}
+.messageInfo{
+    display: flex;
+    flex-direction: column;
+    color: gray;
+    font-size: 14px;
+    /* font-weight: 300; */
+}
+.messageInfo img{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    /* border: 1px solid red;; */
+}
+.owner{
+    flex-direction: row-reverse;
+}
+.owner p{
+    background-color: #e45962;
+    border-radius: 10px 0px 10px 10px;
+}
+.owner .messageContent{
+    align-items: flex-end;
+}
+.messageContent  {
+    max-width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  
+}
+
+.messageContent p{
+  background-color: white;
+  padding: 10px 20px;
+  border-radius: 0px 10px 10px 10px;
+ max-width: max-content;
+
+}
+.owner img{
+    height: 40px;
+    width: 40px;
+}
+.input{
+    height: 50px;
+  
+    padding: 10px;
+    overflow: hidden;
+    box-shadow: 0px 1px 22px rgba(0, 0, 0, 0.11);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  
+}
+.input input{
+width: 100%;
+border: none;
+outline: none;
+color: black;
+font-size: 16px;
+
+}
+.input input ::placeholder{
+    color: gray;
+}
+.send{
+    display: flex;
+    /* padding: 5px; */
+    align-items: center;
+    gap: 10px;
+    /* align-content: center; */
+    /* border: 1px solid gray; */
+}
+.icons{
+    color: gray;
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
+    /* margin-top: 5%; */
+    
+}
+.iconB{
+    /* border: 1px solid red; */
+    margin-top: 8px;
+   
+}
+.input button{
+    border: none;
+    padding: 10px 15px;
+    color:#e45962;
+    border-radius: 10px;
+    cursor: pointer;
+    
+}
+.input button:hover{
+    color: black;
+    background: #f64f59;
+
+
+}
+@media (max-width: 768px){
+    .signUp{
+        width: 100%;
+    }
+    .signUp header{
+       font-size: 30px;
+    }
+    .signUp-container{
+        
+        white-space: nowrap;
+    }
+    .signUp input{
+        width: 100%;
+         
+       
+    }
+    .signUp form{
+        width: 80%;
+        padding: 10px;
+    }
+
+
+
+
+    .dee{
+        display: none;
+    }
+    .container{
+        width: 90%;
+    }
+    .navContainer button{
+        position: absolute;
+        height: 5%;
+    bottom:5px ;
+    background-color: #FDDCDE;
+    color:#f64f59;
+    width: 90%;
+    }
+}
