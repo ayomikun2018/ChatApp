@@ -21,11 +21,11 @@ export default function Login() {
       await signInWithEmailAndPassword(auth, email, password);
       navigate("/")
     } catch (error) {
-        console.log(error.message);
-        setError('User not found!');
+        // console.log(error.message);
+        // setError('User not found!');
       
     
-      // setError(true);
+      setError(true);
     }
     // try {
     //   // await signInWithEmailAndPassword(auth, email, password);
@@ -59,8 +59,8 @@ export default function Login() {
                 <label htmlFor="Display">Password</label>
                 <input type="password" placeholder='******'/>
                 <button>Log In</button>
-                <span> {error }</span>
-                {/* {userErr && <span>User not found signup below!</span>} */}
+                {/* <span> {error }</span> */}
+                {error && <span>User not found signup below!</span>}
             </form>
             <p>Already have an account? <Link to= '/signup' className='click'> Sign Up</Link></p>
         </div>
