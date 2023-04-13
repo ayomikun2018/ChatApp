@@ -62,7 +62,7 @@ export default function Login() {
                 {/* <span> {error }</span> */}
                 {error && <span>User not found signup below!</span>}
             </form>
-            <p>Already have an account? <Link to= '/signup' className='click'> Sign Up</Link></p>
+            <p>Don't have an account? <Link to= '/signup' className='click'> Sign Up</Link></p>
         </div>
     </div>
   )
