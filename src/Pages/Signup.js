@@ -47,7 +47,7 @@ export default function Signup() {
   
               //create empty user chats on firestore
               await setDoc(doc(db, "userChats", res.user.uid), {});
-              navigate("home");
+              navigate("/home");
             } catch (err) {
               console.log(err);
               setErr(true);
@@ -83,7 +83,7 @@ export default function Signup() {
             <span>Add a profile picture</span>
           </label>
           <button>Sign Up</button>
-          {loading && "Uploading and compressing the image please wait..."}
+          {loading &&<span>Uploading and compressing the image please wait...</span>}
           {err && <span>Something went wrong</span>}
         </form>
         <p>

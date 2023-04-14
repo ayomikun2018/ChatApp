@@ -18,7 +18,7 @@ export default function Login() {
 
     try {
       await signInWithEmailAndPassword(auth, email, password);
-      navigate("home")
+      navigate("/home")
     } catch (error) {
         // console.log(error.message);
         // setError('User not found!');
