@@ -26,18 +26,18 @@ export default function Navbar() {
   };
   return (
     <div className="navContainer">
-      {/* <h2 className='dee'> Dee Chat </h2> */}
       <div className="deeDiv">
         <div className="user">
         <img src={currentUser?.photoURL} alt="img"></img>
         <span>{currentUser?.displayName}</span>
         </div>
+      </div>  
       <div className="buttonDiv">
         <button onClick={() => handleLogout()} className='buttonA'>Log Out</button>
         <button onClick={() => handleDeleteUser()} className='buttonB'>Delete User</button>
       </div>
       
-      </div>
+      
     </div>
   );
 }

@@ -1,4 +1,3 @@
-
 import React, { useState } from "react";
 import {  useNavigate,Link } from 'react-router-dom';
 import './Style.css';
@@ -23,23 +22,8 @@ export default function Login() {
     } catch (error) {
         // console.log(error.message);
         // setError('User not found!');
-      
-    
       setError(true);
-    }
-    // try {
-    //   // await signInWithEmailAndPassword(auth, email, password);
-    //   // navigate("/")
-    // }
-    // if (err.message === "EMAIL_NOT_FOUND"){
-
-    // }
-    // catch (userErr) {
-    //   setUserErr(true)
-
-    // }
-
-    
+    } 
   };
 
   return (
