@@ -24,6 +24,8 @@ export default function Login() {
         // setError('User not found!');
       setError(true);
     } 
+    // email('')
+    // password('')
   };
 
   return (

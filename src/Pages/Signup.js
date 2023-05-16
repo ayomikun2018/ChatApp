@@ -60,6 +60,7 @@ export default function Signup() {
         setLoading(false);
       }
     };
+    
   return (
     <div className="signUp">
       <nav>
